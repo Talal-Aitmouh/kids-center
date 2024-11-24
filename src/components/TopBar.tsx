@@ -1,4 +1,4 @@
-import { Search, Mail, Phone, Sun } from 'lucide-react'
+import { Search, Mail, Phone } from 'lucide-react'
 import { ModeToggle } from './mode-toggle'
 
 export default function Topbar() {
@@ -58,7 +58,7 @@ export default function Topbar() {
           </div>
 
           {/* Logo */}
-          <div className="text-xl font-bold text-pink-500 md:hidden ">
+          <div className="md:hidden ">
           <ModeToggle className='bg-[#222222] hover:bg-[#222222]/80 !text-white !outline-none !border-none'/>
           </div>
         </div>

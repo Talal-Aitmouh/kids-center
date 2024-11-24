@@ -4,7 +4,7 @@ import { IoffreProps } from "@/lib/Interfaces";
 
 
 
-const Offer = ({ title, description, Icon, color, }: IoffreProps) => {
+const Offer = ({title,description,color,Icon}:IoffreProps) => {
   
 
   return (
