@@ -19,3 +19,9 @@ export interface IcourseCardProps {
         occupation: string
     }
 }
+
+export interface ImobileMenuProps {
+    links: { name: string, current: boolean }[],
+    click: () => void,
+    className?: string
+}
