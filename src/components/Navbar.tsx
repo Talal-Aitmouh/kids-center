@@ -71,7 +71,7 @@ function Navbar() {
 
     
     return (
-        <nav className="w-full h-20 flex items-center">
+        <nav className="w-full max-w-full h-20 flex items-center">
             <div className="w-[50%] h-full flex items-center justify-center md:justify-start lg:justify-center md:px-5 lg:w-[30%]">
                 {resolvedTheme === 'dark' ? <img src="/logo-white.png" className="w-[80%] md:w-[50%]" /> : <img src="/logo.png" className="w-[80%] md:w-[50%]" />}
             </div>
