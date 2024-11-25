@@ -1,6 +1,6 @@
-import { IteacherProps } from "@/lib/Interfaces"
+import { IpersonProps } from "@/lib/Interfaces"
 
-const Teacher = ({name , image ,occupation}:IteacherProps) => {
+const Teacher = ({name , image ,occupation}:IpersonProps) => {
   return (
     <div className="flex gap-2 items-start flex-1" >
         <img src={image} alt={name} className="h-[55px] w-[55px] rounded-full object-cover object-center" />

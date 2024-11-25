@@ -7,7 +7,7 @@ export interface IoffreProps {
   Icon: LucideIcon;
   color: string;
 }
-export interface IteacherProps {
+export interface IpersonProps {
         name: string;
         image: string;
         occupation: string;
@@ -19,7 +19,7 @@ export interface IcourseCardProps {
   image: string;
   category: string;
   price: string;
-  teacher: IteacherProps
+  teacher: IpersonProps
 }
 
 export interface ImobileMenuProps {
@@ -39,4 +39,13 @@ export interface IheroCardsProps {
 export interface IsectionHeaderProps {
   title: string;
   description: string;
+}
+
+
+
+export interface ItestimonialProps {
+
+    review:string,
+    reviewr : IpersonProps
+
 }
