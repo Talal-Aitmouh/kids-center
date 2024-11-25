@@ -1,12 +1,16 @@
+import Hero from "@/components/Hero"
 import Offers from "@/components/Offers"
 
 
 
 const Home = () => {
   return (
-  <>
-  <Offers/>
-  </>
+    <>
+      <section className="w-full flex flex-col">
+        <Hero />
+        <Offers />
+      </section>
+    </>
   )
 }
 
