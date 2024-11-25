@@ -1,4 +1,5 @@
 import Courses from "@/components/Courses"
+import GalleryCarousel from "@/components/Gallery"
 import Hero from "@/components/Hero"
 import Offers from "@/components/Offers"
 
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
         <Offers />
         <Courses/>
+        <GalleryCarousel/>
       </section>
     </>
   )
