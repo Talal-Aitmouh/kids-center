@@ -1,6 +1,6 @@
 import { useTheme } from "@/context/theme-provider"
 import { Menu, ToggleLeftIcon, X } from "lucide-react"
-import { FC, useEffect, useState } from "react"
+import {  useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { ImobileMenuProps } from "@/lib/Interfaces"
 import { useLocation } from "react-router-dom"
