@@ -13,10 +13,10 @@ const Home = () => {
       <section className="w-full flex flex-col">
         <Hero />
         <Offers />
+        <FactSection />
         <Courses/>
         <GalleryCarousel/>
-        <FactSection />
-        <Courses />
+        <Testimonials/>
       </section>
     </>
   )
