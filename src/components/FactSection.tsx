@@ -1,4 +1,3 @@
-import NumberTicker from "./ui/number-ticker"
 import CountUp from "react-countup";
 function FactSection() {
     return (

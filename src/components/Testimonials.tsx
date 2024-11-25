@@ -82,6 +82,8 @@ const Testimonials = () => {
                                 slidesPerView: 2,
                             },
                         }}
+                        preventInteractionOnTransition={true}
+                        preventClicks={true}                    
                         pagination={{ clickable: true, el: ".custom-pagination" }}
                         className="w-11/12 mx-auto"
                     >
