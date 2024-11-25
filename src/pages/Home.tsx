@@ -1,4 +1,5 @@
 import Courses from "@/components/Courses"
+import FactSection from "@/components/FactSection"
 import Hero from "@/components/Hero"
 import Offers from "@/components/Offers"
 
@@ -10,7 +11,8 @@ const Home = () => {
       <section className="w-full flex flex-col">
         <Hero />
         <Offers />
-        <Courses/>
+        <FactSection />
+        <Courses />
       </section>
     </>
   )

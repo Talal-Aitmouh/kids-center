@@ -34,7 +34,7 @@ function Hero() {
     return (
         <div className="w-full flex flex-col">
             <ImagesCarousel />
-            <div className="w-full flex flex-col relative bottom-12 items-center lg:justify-center lg:gap-6 lg:flex-row ">
+            <div className="w-full flex flex-col relative bottom-12 items-center md:flex md:flex-row md:gap-4 md:justify-center md:flex-wrap lg:flex lg:flex-nowrap lg:px-6 lg:justify-center lg:gap-6 lg:flex-row ">
                 {cards.map((card, index) => <HeroCards key={index} title={card.title} description={card.description} color={card.color} Icon={card.Icon} />)}
             </div>
         </div>
