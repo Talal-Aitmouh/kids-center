@@ -10,7 +10,7 @@ import Testimonials from "@/components/Testimonials"
 const Home = () => {
   return (
     <>
-      <section className="w-full flex flex-col">
+      <section className="w-full flex flex-col overflow-x-hidden">
         <Hero />
         <Offers />
         <FactSection />
