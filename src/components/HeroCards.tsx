@@ -6,7 +6,7 @@ function HeroCards({ title, description, color, Icon }: IheroCardsProps) {
     const { theme } = useTheme()
     return (
         <div className="lg:w-[300px] w-[90%] relative h-[250px] lg:h-[350px] mt-4 flex flex-col p-5 space-y-3" style={{ backgroundColor: color }}>
-            {Icon && <Icon size={90} className="text-white text-4xl" />}
+            {Icon && <Icon size={90} className="text-white text-4xl" />} 
             <div className="w-full h-[60%] flex flex-col py-5">
                 <h1 className="text-2xl font-bold text-white">{title}</h1>
                 <p className="text-white">{description}</p>
