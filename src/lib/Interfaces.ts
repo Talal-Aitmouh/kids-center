@@ -62,6 +62,7 @@ export interface ILatestNewsCardProps{
 
 
 export interface IteachersCard{
+  job: string,
   image: string,
   name: string,
   tel: string,

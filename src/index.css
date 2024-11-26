@@ -67,6 +67,11 @@
 }
 
 
+
+.swiper-pagination-bullet {
+  background-color:hsl(var(--foreground)) !important;
+}
+
 .swiper-pagination-bullet-active {
   background-color:hsl(var(--primary)) !important;
 }
