@@ -4,6 +4,7 @@ import FactSection from "@/components/FactSection"
 import Hero from "@/components/Hero"
 import Offers from "@/components/Offers"
 import Testimonials from "@/components/Testimonials"
+import LatestNews from "@/components/LatestNews"
 
 
 
@@ -14,9 +15,10 @@ const Home = () => {
         <Hero />
         <Offers />
         <FactSection />
-        <Courses/>
-        <GalleryCarousel/>
-        <Testimonials/>
+        <Courses />
+        <GalleryCarousel />
+        <Testimonials />
+        <LatestNews />
       </section>
     </>
   )
