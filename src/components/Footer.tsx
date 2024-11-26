@@ -1,4 +1,4 @@
-import { ArrowBigRight, Facebook, Instagram, Linkedin, Send, SendHorizonal, Twitter, Youtube } from "lucide-react";
+import {  Facebook, Instagram, Linkedin, SendHorizonal, Twitter, Youtube } from "lucide-react";
 
 
 type links = {
@@ -22,13 +22,13 @@ const quickLinks: links[] = [
 const Footer = () => {
   const year: number = new Date().getFullYear()
   return (
-    <footer className="bg-primary max-w-7xl px-8 pt-10 pb-3 mt-4 text-background">
-      <div className="flex flex-col md:flex-row gap-4 items-start justify-between">
-        <div className="logo flex-1">
-          <img src="./logo.png" alt="logo" className="w-36" />
-          <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius vehicula odio,  Lorem ipsum dolor sit amet, consectetur </p>
+    <footer className="bg-primary max-w-7xl px-8 pt-10 pb-3 mt-8 text-background">
+      <div className="flex  flex-row gap-8 items-center justify-center flex-wrap md:items-start md:justify-between">
+        <div className="logo flex-1 md:basis-56 basis-auto text-center ">
+          <img src="./logo.png" alt="logo" className="w-36 mx-auto" />
+          <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius vehicula odio,  Lorem ipsum dolor sit amet, consectetur </p>
         </div>
-        <div className="informations flex flex-col gap-4 flex-1">
+        <div className="informations flex flex-col gap-4 flex-1 basis-28">
           <h1 className="font-bold text-xl capitalize"> Informations</h1>
           {
             informations.map((info, index) => {
@@ -36,7 +36,7 @@ const Footer = () => {
             })
           }
         </div>
-        <div className="quick-links flex flex-col gap-4  flex-1">
+        <div className="quick-links flex flex-col gap-4  flex-1 basis-28">
           <h1 className="font-bold text-xl capitalize"> Quick Links</h1>
           {
             quickLinks.map((link, index) => {
@@ -44,7 +44,7 @@ const Footer = () => {
             })
           }
         </div>
-        <div className="subscribe flex flex-col gap-4  flex-1 basis-56">
+        <div className="subscribe flex flex-col gap-4  flex-1 basis-72">
           <h1 className="font-bold text-xl capitalize"> Newsletter </h1>
           <p className="font-semibold capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia tortor eros</p>
           <div className="input flex items-center border border-background py-2 px-4 rounded-lg bg-background">
