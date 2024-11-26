@@ -1,13 +1,12 @@
 import CountUp from "react-countup";
+import SectionHeader from "./SectionHeader";
 function FactSection() {
     return (
-        <section className="w-full lg:h-[60vh] text-white lg:justify-center flex flex-col items-center p-5 relative">
+        <section className="w-full  text-white lg:justify-center flex flex-col items-center p-5 relative">
             <div className="w-full h-full absolute top-0 left-0 -z-10 overflow-hidden">
                 <img src="/facts.jpg" className="w-full h-full object-cover filter brightness-50 blur-[3px]" alt="" />
             </div>
-
-            <h1 className="text-4xl text-center font-semibold">FACTS AND FIGURE ABOUT KIDS CENTER</h1>
-            <p className="text-center mt-2 text-xs md:text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa itaque rem quae modi molestiae quaerat exercitationem tempora soluta repellat iste.</p>
+           <SectionHeader title="FACTS AND FIGURE ABOUT KIDS CENTER" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa itaque rem quae modi molestiae quaerat exercitationem tempora soluta repellat iste." />
             <div className="w-full gap-2 text-white md:h-[20vh] mt-3 flex flex-col md:flex-row">
                 <div className="w-full flex items-center justify-center gap-5 lg:pl-2">
                     <div className="w-full space-y-1 flex flex-col">
