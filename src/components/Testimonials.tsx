@@ -68,7 +68,7 @@ const Testimonials = () => {
                 <div className="flex gap-4 justify-center flex-col items-center">
                     <Swiper
                         modules={[Pagination, Autoplay, EffectCards]}
-                        // effect="cards" 
+                        effect="cards" 
                         autoplay={{ delay: 3000, disableOnInteraction: true }}
                         loop={true}
                         centeredSlides={true}
