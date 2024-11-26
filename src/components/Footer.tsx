@@ -22,7 +22,7 @@ const quickLinks: links[] = [
 const Footer = () => {
   const year: number = new Date().getFullYear()
   return (
-    <footer className="bg-primary max-w-7xl px-8 pt-10 pb-3 mt-8 text-background">
+    <footer className="bg-primary px-8 pt-10 pb-3 mt-8 text-background">
       <div className="flex  flex-row gap-8 items-center justify-center flex-wrap md:items-start md:justify-between">
         <div className="logo flex-1 md:basis-56 basis-auto text-center ">
           <img src="./logo.png" alt="logo" className="w-36 mx-auto" />
