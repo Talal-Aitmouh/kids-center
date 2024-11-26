@@ -5,7 +5,7 @@ const sponsors: string[] = [
     "./brand-01.png",
     "./brand-02.png",
     "./brand-03.jpg",
-    "./brand-04.jpg",
+    "./brand-01.png",
 ]
 
 const Sponsors = () => {
