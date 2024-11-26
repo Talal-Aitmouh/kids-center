@@ -49,3 +49,21 @@ export interface ItestimonialProps {
     reviewr : IpersonProps
 
 }
+
+
+export interface ILatestNewsCardProps{
+    title: string,
+    description: string,
+    image: string,
+    date: string,
+    like: number,
+    comment: number
+}
+
+
+export interface IteachersCard{
+  image: string,
+  name: string,
+  tel: string,
+  mail: string
+}
