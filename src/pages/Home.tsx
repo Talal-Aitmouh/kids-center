@@ -4,6 +4,7 @@ import FactSection from "@/components/FactSection"
 import Hero from "@/components/Hero"
 import Offers from "@/components/Offers"
 import Testimonials from "@/components/Testimonials"
+import Sponsors from "@/components/Sponsors"
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
         <Courses/>
         <GalleryCarousel/>
         <Testimonials/>
+        <Sponsors/>
       </section>
     </>
   )
