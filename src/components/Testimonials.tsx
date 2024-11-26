@@ -32,7 +32,7 @@ const reviews: ItestimonialProps[] = [
         }
     },
     {
-        review: "Very satisfied with the results. The team was attentive to my needs and delivered on time.",
+        review: "Very satisfied with the results. The team was attentive to my needs and delivered on time service and great results.",
         reviewr: {
             name: "James Anderson",
             image: "./best-teacher-03.jpg",
@@ -68,7 +68,7 @@ const Testimonials = () => {
                 <div className="flex gap-4 justify-center flex-col items-center">
                     <Swiper
                         modules={[Pagination, Autoplay, EffectCards]}
-                        effect="cards"
+                        // effect="cards" 
                         autoplay={{ delay: 3000, disableOnInteraction: true }}
                         loop={true}
                         centeredSlides={true}

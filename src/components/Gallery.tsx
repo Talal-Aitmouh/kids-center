@@ -30,11 +30,9 @@ export default function GalleryCarousel() {
   }, [emblaApi])
 
   return (
-    <div className="w-full py-8 sm:py-12 md:py-16">
+    <div className="w-full py-8 sm:py-12 ">
       <div className="container mx-auto ">
       <SectionHeader title="Our Gallery" description="Discover the moments that inspire us. Browse through our curated collection showcasing creativity, beauty, and innovation." />
-
-
         <div className="relative">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex -ml-4">

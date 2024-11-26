@@ -59,3 +59,11 @@ export interface ILatestNewsCardProps{
     like: number,
     comment: number
 }
+
+
+export interface IteachersCard{
+  image: string,
+  name: string,
+  tel: string,
+  mail: string
+}
